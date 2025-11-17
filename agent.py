@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Step 1: API Key add karo (main bata dunga kahan se milegi)
-genai.configure(api_key="AIzaSyAD4Mq8GwWXdtgiXNKWa9bBZio53-SgWyM")
+genai.configure(api_key="your-key")
 
 # Step 2: Model choose karo
 model = genai.GenerativeModel("gemini-2.5-flash")
